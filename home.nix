@@ -16,7 +16,6 @@
     pkgs.ripgrep
     pkgs.starship
     pkgs.stow
-    pkgs.thefuck
     pkgs.tree
     pkgs.tree-sitter
     pkgs.vivid

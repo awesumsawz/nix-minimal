@@ -22,7 +22,6 @@
     pkgs.xz
     pkgs.yq
     pkgs.zoxide
-    pkgs.zsh
     pkgs.zellij
     pkgs.nodejs
 

@@ -11,8 +11,6 @@
     pkgs.docker-compose
     pkgs.eza
     pkgs.fzf
-    pkgs.gh
-    pkgs.git
     pkgs.lazygit
     pkgs.neovim
     pkgs.ripgrep

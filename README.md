@@ -9,4 +9,5 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 ## Init Home-Manager
 nix run home-manager/release-24.11 -- init --switch
 
-
+## Run Switch
+home-manager switch --flake $HOME/nix-minimal#server

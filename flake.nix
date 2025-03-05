@@ -14,7 +14,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations."rogue" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."server" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [ 
           ./home.nix 
